@@ -8,10 +8,11 @@ import {
     FaCloudMoon,
     FaMoon,
 } from 'react-icons/fa'
-import { MdMenu, MdPhoneIphone, MdSunny } from 'react-icons/md'
+import { MdCloseFullscreen, MdMenu, MdClose, MdSunny } from 'react-icons/md'
 // import { SiNintendo } from 'react-icons/si'
 // import { BsGlobe } from 'react-icons/bs'
 // import { IconType } from "react-icons"
+import {BsCloudSleet} from 'react-icons/bs'
 
 
 
@@ -21,7 +22,7 @@ export const Header = () => {
         <header className='flex'>
             <button onClick={() => setshowModal(true)} className='menu'>
                 {/* Menu */}
-                <MdMenu  size={35}/>
+                <MdMenu size={35} />
             </button>
             <div />
             <nav>
@@ -44,12 +45,14 @@ export const Header = () => {
                 </ul>
             </nav>
             <button>
-                <MdSunny  size={35}/>
+                <MdSunny size={35} />
             </button>
             {showModal && <div className="fixed">
                 <ul className='modal'>
                     <li>
-                        <button onClick={() => setshowModal(false)}>close</button>
+                        <button onClick={() => setshowModal(false)}>
+                            <MdClose size={28} />
+                        </button>
                     </li>
                     <li>
                         <a href="About">About</a>

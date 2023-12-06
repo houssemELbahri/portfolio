@@ -1,0 +1,46 @@
+.hero {
+    /* background-color: green; */
+    padding: 2rem 0;
+}
+.image-container {
+    /* background-color: red; */
+    padding: 0.1rem 0;
+}
+
+.image {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    padding:1px;
+    border: 1px solid #FFFFFF;
+    box-shadow: 2px 2px 8px var(--border) inset;
+    /* overflow: hidden; */
+}
+
+.title-container {
+    font-size: 40px;
+    color: var(--title);
+    /* padding: 1rem 0; */
+    padding-top: 0.2rem;
+    padding-bottom: .4rem;
+    line-height: 45px;
+}
+
+.description-container {
+    font-size: 15px;
+    color: var(--subtitle);
+    padding: 0.5rem 0
+}
+
+.buttons-container {
+    /* background-color: blue; */
+    gap: 30px;
+    padding: 1rem 0
+}
+
+.SN-icon {
+    text-align: center;
+    vertical-align: middle;
+    padding: 2px;
+
+}
