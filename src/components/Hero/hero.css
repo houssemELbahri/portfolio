@@ -1,12 +1,14 @@
 .hero {
     background-color: #d3e8e1;
     padding: 5rem 0;
+    display: flex   ;
 }
 
 .greeting {
     color:rgb(60,60,78);
     font-size: 48px;
     font-weight: 700;
+    /* padding-bottom: 2rem; */
 }
 
 .description {
@@ -14,4 +16,38 @@
     font-size: 18px;
     font-weight: 400;
     letter-spacing: -0.32px;
+}
+
+.left-container {
+    /* background-color: pink; */
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-container {
+    /* background-color: red;g */
+    flex:1;
+    display: flex;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    width: 200px;
+    /* height:400px; */
+}
+
+@media (max-width:600px){
+    .hero {
+        flex-direction: column;
+    }   
+
+    .left-container {
+        padding-top: 3rem;
+        padding-bottom: 6rem;
+    }
 }
