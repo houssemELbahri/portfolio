@@ -14,7 +14,7 @@ html {
 }
 
 :root {
-  --primary: #000000;
+  --primary: #FFFFFF;
   --secondary: rgb(24, 24, 27);
   --border: rgba(63,63,70,0.4);
   --title: rgb(244,244,245);
@@ -34,14 +34,12 @@ body {
 }
 
 .container {
-  background-color: aquamarine;
-  /* width: 80%; */
-  width: 90%;
+  /* background-color: aquamarine; */
+  width: 98%;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 2rem;
-  /* border: 2px solid red; */
-  background-color: var(--secondary);
+  padding: 0;
+  /* background-color: var(--secondary); */
 }
 
 .divider {

@@ -15,8 +15,16 @@ import { MdCloseFullscreen, MdMenu, MdClose, MdSunny } from 'react-icons/md'
 import {BsCloudSleet} from 'react-icons/bs'
 
 
-
 export const Header = () => {
+    return (
+        <header className='header-container'>
+            <p className='me'>@Bahrouch</p>
+            <p className='links'>LinkedIn Github Twitter</p>
+        </header>
+    )
+} 
+
+export const Header2 = () => {
     const [showModal, setshowModal] = useState<boolean>(false)
     return (
         <header className='flex'>

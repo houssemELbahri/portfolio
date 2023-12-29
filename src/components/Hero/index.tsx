@@ -7,26 +7,10 @@ import './hero.css'
 export const Hero = () => {
     return (
         <section className='hero'>
-            <section className=' image-container'>
-                <img className='image' alt='Houssem Bahri' src='/houssem_algeria.jpg' />
-            </section>
-            <section className='title-container'>
-                    Software Engineer, React/React Native
-            </section>
-            <section className='description-container'>Passionate about software development and technological innovation, I have acquired a strong experience in developing cross- platform mobile applications, enabling me to successfully tackle all the missions entrusted to me.    </section>
-            <section className='flex    buttons-container'>
-                <button className='SN-icon'>
-                    <FaLinkedinIn size={35} />
-                </button>
-                <button className='SN-icon'>
-                    <FaGithub size={35} />
-                </button>
-                <button className='SN-icon'>
-                    <FaFacebookF size={35} />
-                </button>
-                <button className='SN-icon'>
-                    <FaTwitter size={35} />
-                </button>
+            <p className='greeting'>Hello !</p>
+            <section className='description'>
+                I am Houssem Bahri, also known as @bahrouch, a front-end and mobile developer living in Nabeul, Tunisia.
+                I enjoy using the React ecosystem, especially to develop iOS and Android native applications. I also like working on open source projects or giving public talks.
             </section>
         </section>
     )

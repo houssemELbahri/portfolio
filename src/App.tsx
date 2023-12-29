@@ -10,14 +10,14 @@ import { Technologies } from "./components/Technologies"
 function App() {
 
   return (
-    <div className="container ">
+    <div 
+    className="container"
+    >
       <Header />
       <Hero />
       <Technologies />
-      {/* <div className="divider" /> */}
       <Main />
       <Contact />
-      {/* <div className="divider" /> */}
       <Footer />
     </div>
   )
