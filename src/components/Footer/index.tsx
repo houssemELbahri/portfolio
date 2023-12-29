@@ -4,8 +4,8 @@ import  './footer.css'
 
 export const Footer = () => {
     return (
-        <div>
-            from footer section 
-        </div>
+        <footer className='footer-container'>
+            website written using React by Houssem Bahri.
+        </footer>
     )
 }

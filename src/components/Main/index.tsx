@@ -17,7 +17,7 @@ export interface Project {
     toDate: string,
     company: string,
     technologies: string[],
-    image:string
+    image: string
 }
 
 const Projects: Project[] = [
@@ -28,7 +28,7 @@ const Projects: Project[] = [
         toDate: "string",
         company: "FullStack Ltd",
         technologies: ["React native", "typescript", "Mobx"],
-        image:BNA
+        image: BNA
     },
     {
         id: "2",
@@ -37,7 +37,7 @@ const Projects: Project[] = [
         toDate: "string",
         company: "FullStack Ltd",
         technologies: ["React native", "typescript", "Mobx"],
-        image:POPINA
+        image: POPINA
     },
     {
         id: "3",
@@ -46,7 +46,7 @@ const Projects: Project[] = [
         toDate: "string",
         company: "Esperoo",
         technologies: ["React native", "typescript", "Mobx"],
-        image:CHESS
+        image: CHESS
     },
     {
         id: "4",
@@ -55,7 +55,7 @@ const Projects: Project[] = [
         toDate: "string",
         company: "Esperoo",
         technologies: ["React native", "typescript", "Mobx"],
-        image:COMBO
+        image: COMBO
     },
     {
         id: "5",
@@ -64,7 +64,7 @@ const Projects: Project[] = [
         toDate: "string",
         company: "FullStack Ltd",
         technologies: ["React native", "typescript", "Mobx"],
-        image:ESPEROO
+        image: ESPEROO
     },
     {
         id: "6",
@@ -73,7 +73,7 @@ const Projects: Project[] = [
         toDate: "string",
         company: "Esperoo",
         technologies: ["React native", "typescript", "Mobx"],
-        image:APEC
+        image: APEC
     },
     // {
     //     id: "7",
@@ -87,12 +87,15 @@ const Projects: Project[] = [
 
 export const Main = () => {
     return (
-        <div className='projects-container'>
-            {Projects.map(project => {
-                return (
-                    <ProjectCard key={project.id} {...project} />
-                )
-            })}
+        <div>
+            <p className="projects-title">Projects I worked on</p>
+            <div className='projects-container'>
+                {Projects.map(project => {
+                    return (
+                        <ProjectCard key={project.id} {...project} />
+                    )
+                })}
+            </div>
         </div>
     )
 }

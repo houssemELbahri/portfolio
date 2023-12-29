@@ -5,6 +5,7 @@ import { Footer } from "./components/Footer"
 import { Header } from "./components/Header"
 import { Hero } from "./components/Hero"
 import { Main } from "./components/Main"
+import { Technologies } from "./components/Technologies"
 
 function App() {
 
@@ -12,11 +13,11 @@ function App() {
     <div className="container ">
       <Header />
       <Hero />
-      <div className="divider" />
+      <Technologies />
+      {/* <div className="divider" /> */}
       <Main />
-      <div className="divider" />
       <Contact />
-      <div className="divider" />
+      {/* <div className="divider" /> */}
       <Footer />
     </div>
   )
