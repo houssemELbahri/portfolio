@@ -1,0 +1,103 @@
+.contact-container {
+    /* background-color: pink; */
+    
+}
+
+
+section.contact-container .title {
+    font-size: 2.1rem;
+    color:var(--title);
+    margin-bottom: 1rem;
+}
+
+section.contact-container .sub-title {
+    font-size: 2rem;
+    color:var(--subtitle);
+    margin-bottom: 2rem;
+    line-height: 1.65rem;
+}
+
+section.contact-container label {
+    /* font-size: 2.1rem; */
+    color:var(--subtitle);
+    /* margin-bottom: 2rem; */
+    /* line-height: 1.65rem; */
+}
+
+section.contact-container #email, section.contact-container #message {
+    all: unset;
+    background-color: rgba(63,63,70,0.15);
+    border: 1px solid rgb(63,63,70);
+    width: 16rem;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    border-radius: 5px ;
+    transition: 0.3s;
+    font-size: 1.1rem;
+} 
+
+section.contact-container #email:focus, section.contact-container #message:focus {
+    border: 1px solid rgb(45,212,191);
+}
+
+section.contact-container #email:hover, section.contact-container #message:hover {
+    border: 1px solid rgb(45,212,191);
+}
+
+
+section.contact-container #message {
+    min-height: 9rem;
+    resize: vertical;
+}
+
+section.contact-container .submit {
+    background-color: rgba(36,37,46,1);
+    padding: 0.75rem 2rem;
+    text-align: center;
+    font-size: 1.05rem;
+    text-transform: capitalize;
+    border-radius: 5px;
+    transition: 0.3;
+    margin-top: 1.8rem;
+    border: 1px solid rgb(63,63,70);
+    color:var(--title)
+}
+
+section.contact-container .submit:hover {
+   scale: 0.97;
+}
+
+
+
+
+@media (max-width: 600px){
+    section.contact-container .animation {
+        display: none;
+    }
+
+    section.contact-container form {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+    }
+
+    section.contact-container form div.flex {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    section.contact-container #email, section.contact-container #message {
+        width: 100%;
+        margin-left: 0;
+        padding: 0.5rem 0;
+        margin-top: 1rem;
+    }
+
+    section.contact-container .submit {
+        width: 35%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
