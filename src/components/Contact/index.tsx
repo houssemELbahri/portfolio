@@ -23,8 +23,12 @@ export const Contact = () => {
                             placeholder='your email'
                         />
                     </div>
-                    <ValidationError field="email" prefix="Email" errors={state.errors} />
-                    <div  className='flex' style={{marginTop:"24px"}}>
+                    <ValidationError
+                        prefix="Email"
+                        field="email"
+                        errors={state.errors}
+                    />
+                    <div className='flex' style={{ marginTop: "24px" }}>
                         <label htmlFor='message'>Your message:</label>
                         <textarea
                             required
@@ -32,8 +36,16 @@ export const Contact = () => {
                             id="message">
 
                         </textarea>
+                        <ValidationError
+                            prefix="Message"
+                            field="message"
+                            errors={state.errors}
+                        />
                     </div>
-                    <button className='submit' disabled={state.submitting}>Submit</button>
+                    <button className='submit' type='submit' disabled={state.submitting}>{state.submitting ? "submitting ... " : "Submit"}</button>
+                    {state.succeeded && (
+                        <p style={{fontSize:"18px",marginTop:"1.7rem"}}>Your message has been sent successfuly </p>
+                    )}
                 </form>
                 {/* <div className='animation'>
                     animation
