@@ -87,7 +87,7 @@ const Projects: Project[] = [
 
 export const Main = () => {
     return (
-        <div>
+        <div className='main'>
             <p className="projects-title">Projects I worked on</p>
             <div className='projects-container'>
                 {Projects.map(project => {

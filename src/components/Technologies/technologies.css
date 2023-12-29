@@ -1,3 +1,12 @@
+.technologies {
+    /* background-color: pink; */
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
 .title {
     font-size: 32px;
     font-weight: 700;

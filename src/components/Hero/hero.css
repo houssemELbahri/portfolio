@@ -1,9 +1,15 @@
+
 .hero {
     background-color: #d3e8e1;
-    padding: 5rem 0;
-    display: flex   ;
 }
-
+.hero-container {
+    background-color: #d3e8e1;
+    padding: 5rem 0;
+    display: flex;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .greeting {
     color:rgb(60,60,78);
     font-size: 48px;
@@ -42,7 +48,7 @@
 }
 
 @media (max-width:600px){
-    .hero {
+    .hero-container {
         flex-direction: column;
     }   
 
