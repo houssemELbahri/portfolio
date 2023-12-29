@@ -1,84 +1,44 @@
-import { useState } from 'react'
 import './header.css'
 
-import {
-    FaWindows,
-    FaApple,
-    FaSun,
-    FaCloudMoon,
-    FaMoon,
-} from 'react-icons/fa'
-import { MdCloseFullscreen, MdMenu, MdClose, MdSunny } from 'react-icons/md'
-// import { SiNintendo } from 'react-icons/si'
-// import { BsGlobe } from 'react-icons/bs'
-// import { IconType } from "react-icons"
-import {BsCloudSleet} from 'react-icons/bs'
+
+const LINKS = [
+    {
+        id: 1,
+        name: "LinkedIn",
+        link: "https://linkedin.com/in/houssem-bahri"
+    },
+    {
+        id: 2,
+        name: "Github",
+        link: "https://github.com/houssemELbahri"
+    },
+    {
+        id: 3,
+        name: "Twitter",
+        link: "https://twitter.com/el__Bahri"
+    },
+]
 
 
 export const Header = () => {
     return (
         <header className='header-container'>
             <p className='me'>@Bahrouch</p>
-            <p className='links'>LinkedIn Github Twitter</p>
-        </header>
-    )
-} 
-
-export const Header2 = () => {
-    const [showModal, setshowModal] = useState<boolean>(false)
-    return (
-        <header className='flex'>
-            <button onClick={() => setshowModal(true)} className='menu'>
-                {/* Menu */}
-                <MdMenu size={35} />
-            </button>
-            <div />
-            <nav>
-                <ul className='flex'>
-                    <li>
-                        <a href="About">About</a>
-                    </li>
-                    <li>
-                        <a href="Articles">Articles</a>
-                    </li>
-                    <li>
-                        <a href="Projects">Projects</a>
-                    </li>
-                    <li>
-                        <a href="Speaking">Speaking</a>
-                    </li>
-                    <li>
-                        <a href="Contrat">Contact</a>
-                    </li>
+            <div>
+                <ul className='networks flex'>
+                    {LINKS.map(el => {
+                        return (
+                            <li key={el.id}>
+                                <a href={el.link} target='_blank' >
+                                    {el.name}
+                                </a>
+                            </li>
+                        )
+                    })}
                 </ul>
-            </nav>
-            <button>
-                <MdSunny size={35} />
-            </button>
-            {showModal && <div className="fixed">
-                <ul className='modal'>
-                    <li>
-                        <button onClick={() => setshowModal(false)}>
-                            <MdClose size={28} />
-                        </button>
-                    </li>
-                    <li>
-                        <a href="About">About</a>
-                    </li>
-                    <li>
-                        <a href="Articles">Articles</a>
-                    </li>
-                    <li>
-                        <a href="Projects">Projects</a>
-                    </li>
-                    <li>
-                        <a href="Speaking">Speaking</a>
-                    </li>
-                    <li>
-                        <a href="Contrat">Contact</a>
-                    </li>
-                </ul>
-            </div>}
+            </div>
+            {/* <p className='links'>LinkedIn Github Twitter</p> */}
         </header>
     )
 }
+

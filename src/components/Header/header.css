@@ -1,7 +1,5 @@
 .header-container {
-    /* background-color: red; */
     background-color: #d3e8e1;
-    /* background-color: rgb(45,212,191); */
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
@@ -12,16 +10,31 @@
     font-weight: 700;
     padding-top: 10px;
     color:#000000;
-    /* color:rgb(98, 97, 116) */
 }
 
 .links {
     font-size: 16px;
     font-weight: 400;
-    padding-top: 10px;
-    /* color:#000000; */
-    color:rgb(98, 97, 116)
+    /* padding-top: 10px; */
+    color:rgb(98, 97, 116);
 }
+
+.networks {
+    /* background-color: red; */
+    padding-top: 10px;
+}
+
+li {
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+li:hover {
+    scale:1.05;
+    text-decoration: underline;
+    color:#000000
+}
+
 
 @media (max-width:600px) {
     .header-container {
