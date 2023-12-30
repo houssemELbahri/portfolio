@@ -1,4 +1,4 @@
-import profile from '../../public/combo.png'
+import React_logo from '../../../public/react.svg'
 import './hero.css'
 
 
@@ -15,7 +15,7 @@ export const Hero = () => {
                     </section>
                 </div>
                 <div className='right-container'>
-                    <img className='image-container' src={profile} />
+                    <img className='image-container' src={React_logo} />
                 </div>
             </div>
         </section>

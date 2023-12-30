@@ -1,8 +1,10 @@
 .header {
-    background-color: #d3e8e1;
+    background-color: var(--green);
+    /* background-color: red; */
 }
 .header-container {
-    background-color: #d3e8e1;
+    background-color: var(--green);
+    /* background-color: red; */
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
@@ -25,7 +27,7 @@
     font-weight: 400;
     /* padding-top: 10px; */
     /* color:rgb(98, 97, 116); */
-    color:var(--subtitle)
+    color:var(--subtitle);
 }
 
 .networks {
