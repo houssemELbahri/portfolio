@@ -1,6 +1,6 @@
 import './main.css'
-import ESPEROO from "../../../public/playstore-icon.png"
-import POINTEUSE from "../../../public/pointeuse.png"
+import ESPEROO from "../../images/playstore-icon.png"
+import POINTEUSE from "../../images/pointeuse.png"
 
 
 
