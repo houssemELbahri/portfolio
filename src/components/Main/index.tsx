@@ -1,12 +1,6 @@
-import { ProjectCard } from '../projectCard'
 import './main.css'
 import ESPEROO from "../../../public/playstore-icon.png"
 import POINTEUSE from "../../../public/pointeuse.png"
-import APEC from "../../public/apec.png"
-import BNA from "../../public/bna.png"
-import CHESS from "../../public/chess.png"
-import COMBO from "../../public/combo.png"
-import POPINA from "../../public/popina.png"
 
 
 

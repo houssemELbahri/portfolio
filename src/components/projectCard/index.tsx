@@ -6,7 +6,7 @@ import { Project } from "../Main"
 
 
 
-export const ProjectCard = ({id,name,fromDate,toDate,company,technologies,image}:Project) => {
+export const ProjectCard = ({name,fromDate,toDate,company,technologies,image}:Project) => {
     return (
         <div className="card-container">
             <img className="image-container" src={image}/>
