@@ -1,11 +1,11 @@
 // import './App.css'
 
-import { Contact } from "./components/Contact"
-import { Footer } from "./components/Footer"
-import { Header } from "./components/Header"
-import { Hero } from "./components/Hero"
-import { Main } from "./components/Main"
-import { Technologies } from "./components/Technologies"
+import { Contact } from "./sections/Contact"
+import { Footer } from "./sections/Footer"
+import { Header } from "./sections/Header"
+import { Hero } from "./sections/Hero"
+import { Projects } from "./sections/Projects"
+import { Technologies } from "./sections/Technologies"
 
 function App() {
 
@@ -16,7 +16,7 @@ function App() {
       <Header />
       <Hero />
       <Technologies />
-      <Main />
+      <Projects />
       <Contact />
       <Footer />
     </div>

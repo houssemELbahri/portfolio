@@ -1,22 +1,15 @@
-import './main.css'
-import ESPEROO from "../../images/playstore-icon.png"
-import POINTEUSE from "../../images/pointeuse.png"
+import ESPEROO from "../images/playstore-icon.png"
+import POINTEUSE from "../images/pointeuse.png"
+import { Project } from "../types"
 
 
 
 
-export interface Project {
-    id: string,
-    name: string,
-    fromDate: string,
-    toDate: string,
-    company: string,
-    technologies: string[],
-    image: string,
-    description: string
-}
+export const FORM_KEY = "xoqgqqvq";
+export const USERNAME = "ELBahri";
 
-const Projects: Project[] = [
+
+export const PROJECTS: Project[] = [
     {
         id: "6",
         name: "Rapido Car",
@@ -78,26 +71,3 @@ const Projects: Project[] = [
         description: "Enables simplified scheduling of tasks and provides real-time monitoring for proactive management of delays."
     },
 ]
-
-export const Main = () => {
-    return (
-        <div className='main'>
-            <p className="projects-title">Projects I worked on</p>
-            <div className='projects-container' >
-                {Projects.map(project => {
-                    return (
-                        <div>
-                            <div className='one-project'>
-                                <div className='flex'>
-                                    <img className='project-icon' src={project.image} />
-                                    <p className='project-name'>{project.name} - {project.fromDate} - {project.toDate}</p>
-                                </div>
-                                <p className='project-description'>{project.description}</p>
-                            </div>
-                        </div>
-                    )
-                })}
-            </div>
-        </div>
-    )
-}

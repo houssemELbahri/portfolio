@@ -1,10 +1,11 @@
 import { useForm, ValidationError } from '@formspree/react';
 import './contact.css'
+import { FORM_KEY } from '../../constants';
 
 
 
 export const Contact = () => {
-    const [state, handleSubmit] = useForm('xoqgqqvq');
+    const [state, handleSubmit] = useForm(FORM_KEY);
 
 
     return (

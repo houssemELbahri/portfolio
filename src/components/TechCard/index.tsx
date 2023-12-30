@@ -1,5 +1,5 @@
-import { ITech } from "../Technologies"
-import './tech.css'
+import { ITech } from '../../types'
+import './tech-card.css'
 
 
 

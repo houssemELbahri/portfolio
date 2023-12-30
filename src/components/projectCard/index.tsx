@@ -1,5 +1,5 @@
+import { Project } from "../../types"
 import "./project-card.css"
-import { Project } from "../Main"
 
 
 

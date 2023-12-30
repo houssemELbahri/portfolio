@@ -1,13 +1,11 @@
-import {  TechCard } from '../Tech';
+import {  TechCard } from '../../components/TechCard';
+import { ITech } from '../../types';
 import './technologies.css'
 
 
 
 
-export interface ITech {
-    id: number;
-    name: string
-}
+
 
 
 const TECHNOLOGIES: ITech[] = [
