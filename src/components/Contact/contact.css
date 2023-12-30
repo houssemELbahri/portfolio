@@ -13,13 +13,15 @@ section.contact-container .title {
     /* color:var(--title); */
     /* color:#d3e8e1; */
     color:#000000;
+    color:var(--title);
     margin-bottom: 1rem;
 }
 
 section.contact-container .sub-title {
     font-size: 1.2rem;
     /* color:var(--subtitle); */
-    color:#000033;
+    /* color:#000033; */
+    color: var(--subtitle);
     margin-bottom: 2rem;
     line-height: 1.65rem;
 }
@@ -70,7 +72,7 @@ section.contact-container .submit {
     transition: 0.3;
     margin-top: 1.8rem;
     border: 1px solid rgb(63,63,70);
-    color:var(--title)
+    color:white
 }
 
 section.contact-container .submit:hover {
@@ -105,7 +107,7 @@ button:disabled {
     section.contact-container #email, section.contact-container #message {
         width: 100%;
         margin-left: 0;
-        padding: 0.5rem 0;
+        padding: 0.5rem 1rem;
         margin-top: 1rem;
     }
 

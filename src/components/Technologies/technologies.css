@@ -10,10 +10,14 @@
 .title {
     font-size: 32px;
     font-weight: 700;
-    color: #000000
+    color: #000000;
+    color:var(--title);
 }
 
 .techs-container {
     /* background-color: green; */
     margin-top: 25px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }

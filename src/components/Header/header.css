@@ -9,36 +9,43 @@
     width:85%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 30px;
 }
 
 .me {
     font-size: 18px;
     font-weight: 700;
-    padding-top: 30px;
+    margin-bottom: 10px;
     color:#000000;
+    color:var(--title)
 }
 
 .links {
     font-size: 16px;
     font-weight: 400;
     /* padding-top: 10px; */
-    color:rgb(98, 97, 116);
+    /* color:rgb(98, 97, 116); */
+    color:var(--subtitle)
 }
 
 .networks {
     /* background-color: red; */
-    padding-top: 30px;
+    /* padding-top: 30px; */
 }
 
 li {
     padding-right: 10px;
     cursor: pointer;
+    color:var(--subtitle)
+}
+.linkTo {
+    color:var(--subtitle)
 }
 
 li:hover {
     scale:1.05;
     text-decoration: underline;
-    color:#000000
+    text-decoration-color: var(--blue);
 }
 
 

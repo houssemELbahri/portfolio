@@ -12,16 +12,19 @@
 }
 .greeting {
     color:rgb(60,60,78);
+    color:var(--title);
     font-size: 48px;
     font-weight: 700;
     /* padding-bottom: 2rem; */
 }
 
 .description {
-    color:rgb(98, 97, 116);
+    /* color:rgb(98, 97, 116); */
+    color:var(--subtitle);
     font-size: 18px;
     font-weight: 400;
-    letter-spacing: -0.32px;
+    letter-spacing: 0.3px;
+    line-height: 36px;
 }
 
 .left-container {

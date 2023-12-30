@@ -10,15 +10,66 @@
     /* margin-top: 60px; */
     font-size: 32px;
     font-weight: 700;
-    color:#000000
+    color:#000000;
+    color:var(--title);
 }
 
 .projects-container {
-    /* background-color: green; */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding : 20px 5px
+    /* background-color: pink; */
+    width: 50%;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    /* padding : 20px 0px */
 }
 
+.project-name {
+    color:var(--title);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.project-description {
+    color:var(--subtitle);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    padding-top: 5px;
+    letter-spacing: 0.5px;
+}
+
+.one-project {
+    /* background-color: red; */
+    padding: 15px 0;
+}
+
+
+@media (max-width:1200px){
+    .projects-container {
+        /* background-color: red; */
+        width:65%
+    }
+}
+
+@media (max-width:1000px){
+    .projects-container {
+        /* background-color: green; */
+        width:82%
+    }
+}
+
+@media (max-width:800px){
+    .projects-container {
+        /* background-color: pink; */
+        width:85%
+    }
+}
+
+
+@media (max-width:600px){
+    .projects-container {
+        /* background-color: green; */
+        width:90%
+    }
+}

@@ -24,13 +24,13 @@ export const Header = () => {
     return (
         <header className='header'>
             <div className='header-container'>
-                <p className='me'>@Bahrouch</p>
+                <p className='me'>@ElBahri</p>
                 <div>
                     <ul className='networks flex'>
                         {LINKS.map(el => {
                             return (
                                 <li key={el.id}>
-                                    <a href={el.link} target='_blank' >
+                                    <a className='linkTo' href={el.link} target='_blank' >
                                         {el.name}
                                     </a>
                                 </li>
