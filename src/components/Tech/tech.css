@@ -1,9 +1,8 @@
 .tech-card {
-    /* background-color: rgb(200,0,0); */
     background-color: var(--green);
     width:100px;
     height:100px;
-    margin-right: 15px;
+    margin-right: 5px;
     margin-bottom: 15px;
     display: flex;
     justify-content: center;
@@ -15,4 +14,10 @@
     font-size: 17px;
     text-align: center;
     color:var(--title)
+}
+
+@media (max-width:470px){
+    .tech-card {
+        margin-right: 5px;
+    }
 }

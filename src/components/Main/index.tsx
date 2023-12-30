@@ -98,13 +98,6 @@ export const Main = () => {
                     )
                 })}
             </div>
-            {/* <div className='projects-container'>
-                {Projects.map(project => {
-                    return (
-                        <ProjectCard key={project.id} {...project} />
-                    )
-                })}
-            </div> */}
         </div>
     )
 }

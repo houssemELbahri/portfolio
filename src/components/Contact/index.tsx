@@ -44,7 +44,7 @@ export const Contact = () => {
                     </div>
                     <button className='submit' type='submit' disabled={state.submitting}>{state.submitting ? "submitting ... " : "Submit"}</button>
                     {state.succeeded && (
-                        <p style={{fontSize:"18px",marginTop:"1.7rem"}}>Your message has been sent successfuly </p>
+                        <p style={{fontSize:"18px",marginTop:"1.7rem",color:"#000000"}}>Your message has been sent successfuly </p>
                     )}
                 </form>
                 {/* <div className='animation'>

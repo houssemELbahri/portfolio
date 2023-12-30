@@ -12,6 +12,7 @@
     font-weight: 700;
     color:#000000;
     color:var(--title);
+    padding-bottom: 1rem;
 }
 
 .projects-container {
@@ -32,11 +33,12 @@
 
 .project-description {
     color:var(--subtitle);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
-    padding-top: 5px;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 26px;
+    padding-top: 15px;
     letter-spacing: 0.5px;
+    /* font-family: Arial; */
 }
 
 .one-project {

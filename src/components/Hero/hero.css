@@ -22,8 +22,8 @@
 .description {
     /* color:rgb(98, 97, 116); */
     color:var(--subtitle);
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 17px;
+    font-weight: 300;
     letter-spacing: -0.32px;
     line-height: 29.7px;
     padding-bottom: 100px;
