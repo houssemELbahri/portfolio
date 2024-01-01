@@ -6,6 +6,8 @@ import { Header } from "./sections/Header"
 import { Hero } from "./sections/Hero"
 import { Projects } from "./sections/Projects"
 import { Technologies } from "./sections/Technologies"
+import { Activities } from "./sections/Activities"
+
 
 function App() {
 
@@ -17,6 +19,7 @@ function App() {
       <Hero />
       <Technologies />
       <Projects />
+      <Activities/>
       <Contact />
       <Footer />
     </div>

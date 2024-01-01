@@ -1,0 +1,24 @@
+.activities-container {
+    /* background-color: red; */
+    width:85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 4rem;
+}
+
+
+.activities-title {
+    font-size: 32px;
+    font-weight: 700;
+    color:#000000;
+    color:var(--title);
+    padding-bottom: 1rem;
+}
+
+
+.activity {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--subtitle);
+    padding: 0.5rem 0;
+}
