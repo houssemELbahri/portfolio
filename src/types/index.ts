@@ -6,7 +6,9 @@ export interface Project {
     company: string,
     technologies: string[],
     image: string,
-    description: string
+    description: string,
+    appStoreLink:string,
+    googlePlayLink:string
 }
 
 export interface ITech {
