@@ -1,19 +1,139 @@
 .tech-card {
-    background-color: var(--green);
-    width:100px;
-    height:100px;
-    margin-right: 5px;
-    margin-bottom: 15px;
+    /* background-color: var(--green); */
+    /* background-color: rgb(83, 193, 221); */
+    width:90px;
+    height:90px;
+    /* margin-right: 5px; */
+    /* margin-bottom: 15px; */
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
 }
 
 .technology {
-    font-size: 17px;
-    text-align: center;
-    color:var(--title)
+    /* font-size: 17px; */
+    /* text-align: center; */
+    /* color:var(--title); */
+    /* color:red; */
+}
+
+.tech-react {
+    width: 100px;
+    height:100px;
+    /* scale: 3.5; */
+    background-color: #1c253b;
+    color:#61dbfc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-react-native {
+    width: 100px;
+    height:100px;
+    /* scale: 3.5; */
+    background-color: rgb(83, 193, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-js {
+    width: 100px;
+    height:100px;
+    /* scale: 3.5; */
+    background-color: #f6df31;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-ts {
+    width: 100px;
+    height:100px;
+    /* scale: 3.5; */
+    background-color: #2687d1;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-git {
+    width: 100px;
+    height:100px;
+    /* scale: 3.5; */
+    background-color: rgb(241, 78, 50);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-xcode {
+    width: 100px;
+    height:100px;
+    /* scale: 3.5; */
+    background-color: rgb(41, 98, 255);
+    /* color:yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-android {
+    width: 100px;
+    height:100px;
+    /* scale: 3.5; */
+    /* background-color: rgb(240,250,240); */
+    background-color:rgb(56,163,75);
+    /* color:rgb(56,163,75); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-redux {
+    width: 100px;
+    height:100px;
+    /* scale: 3.5; */
+    background-color: rgb(118, 74, 188);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-mobx {
+    width: 100px;
+    height:100px;
+    /* scale: 3.5; */
+    background-color: #e26013;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one-tech {
+    /* background-color: green; */
+    scale:3.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.technology-name {
+    color: var(--title);
+    padding:10px 0px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.vertical-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
+    margin-right: 5px;
 }
 
 @media (max-width:470px){

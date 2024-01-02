@@ -1,11 +1,19 @@
  
  
- @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,400;9..40,500;9..40,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;700&display=swap');
 
 html {
-  font-family: 'Roboto', 'Arial';
-  letter-spacing: 1px;
+  /* font-family: 'DM Sans', 'Arial'; */
+  /* font-family: 'Montserrat'; */
+  /* letter-spacing: 1px; */
+  /* letter-spacing: -0.32px; */
+  /* line-height: 29.7px; */
 }
 
 * {

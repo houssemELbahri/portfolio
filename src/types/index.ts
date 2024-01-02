@@ -11,5 +11,6 @@ export interface Project {
 
 export interface ITech {
     id: number;
-    name: string
+    name: string;
+    icon:string
 }

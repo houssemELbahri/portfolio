@@ -22,3 +22,18 @@
     color: var(--subtitle);
     padding: 0.5rem 0;
 }
+
+.icon-with-label {
+    display: flex;
+    align-items: start;
+    /* background-color: red; */
+    margin-bottom: 1px;
+}
+
+
+.activity-icon {
+    /* background-color: var(--title); */
+    color:var(--subtitle);
+    margin-right: 15px;
+    scale:0.75;
+}

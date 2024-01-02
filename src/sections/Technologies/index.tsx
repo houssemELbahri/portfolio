@@ -1,6 +1,9 @@
+import './technologies.css'
 import {  TechCard } from '../../components/TechCard';
 import { ITech } from '../../types';
-import './technologies.css'
+
+
+
 
 
 
@@ -12,38 +15,47 @@ const TECHNOLOGIES: ITech[] = [
     {
         id: 1,
         name: "React",
+        icon:"FaReact"
     },
     {
         id: 2,
         name: "React Native",
+        icon:"ReactNative"
     },
     {
         id: 3,
         name: "JavaScript",
+        icon:"IoLogoJavascript"
     },
     {
         id: 4,
         name: "TypeScript",
+        icon:"SiTypescript"
     },
     {
         id: 5,
         name: "Redux",
+        icon:"SiRedux"
     },
     {
         id: 6,
         name: "Mobx",
+        icon:"SiMobx"
     },
     {
         id: 7,
         name: "git",
+        icon:"FaGitAlt"
     },
     {
         id: 8,
-        name: "firebase",
+        name: "Android Studio",
+        icon:"SiAndroidstudio"
     },
     {
         id: 9,
-        name: "Fastlane",
+        name: "Xcode",
+        icon:"SiXcode"
     }
 ]
 
