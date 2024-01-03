@@ -1,20 +1,17 @@
-// import './App.css'
 
-import { Contact } from "./sections/Contact"
-import { Footer } from "./sections/Footer"
 import { Header } from "./sections/Header"
 import { Hero } from "./sections/Hero"
-import { Projects } from "./sections/Projects"
 import { Technologies } from "./sections/Technologies"
+import { Projects } from "./sections/Projects"
 import { Activities } from "./sections/Activities"
+import { Contact } from "./sections/Contact"
+import { Footer } from "./sections/Footer"
 
 
 function App() {
 
   return (
-    <div 
-    className="container"
-    >
+    <div className="app-container">
       <Header />
       <Hero />
       <Technologies />

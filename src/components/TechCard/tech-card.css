@@ -2,7 +2,6 @@
     /* background-color: red; */
     width:90px;
     height:90px;
-    /* margin-right: 5px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,17 +10,10 @@
     overflow: hidden;
 }
 
-.technology {
-    /* font-size: 17px; */
-    /* text-align: center; */
-    /* color:var(--title); */
-    /* color:red; */
-}
 
 .tech-react {
     width: 100%;
     height:100%;
-    /* scale: 3.5; */
     background-color: #1c253b;
     color:#61dbfc;
     display: flex;
@@ -32,7 +24,6 @@
 .tech-react-native {
     width: 100%;
     height:100%;
-    /* scale: 3.5; */
     background-color: rgb(83, 193, 221);
     display: flex;
     justify-content: center;
@@ -42,7 +33,6 @@
 .tech-js {
     width: 100%;
     height:100%;
-    /* scale: 3.5; */
     background-color: #f6df31;;
     display: flex;
     justify-content: center;
@@ -52,7 +42,6 @@
 .tech-ts {
     width: 100%;
     height:100%;
-    /* scale: 3.5; */
     background-color: #2687d1;;
     display: flex;
     justify-content: center;
@@ -62,7 +51,6 @@
 .tech-git {
     width: 100%;
     height:100%;
-    /* scale: 3.5; */
     background-color: rgb(241, 78, 50);;
     display: flex;
     justify-content: center;
@@ -72,9 +60,7 @@
 .tech-xcode {
     width: 100%;
     height:100%;
-    /* scale: 3.5; */
     background-color: rgb(41, 98, 255);
-    /* color:yellow; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,10 +69,7 @@
 .tech-android {
     width: 100%;
     height:100%;
-    /* scale: 3.5; */
-    /* background-color: rgb(240,250,240); */
     background-color:rgb(56,163,75);
-    /* color:rgb(56,163,75); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,7 +78,6 @@
 .tech-redux {
     width: 100%;
     height:100%;
-    /* scale: 3.5; */
     background-color: rgb(118, 74, 188);
     display: flex;
     justify-content: center;
@@ -105,7 +87,6 @@
 .tech-mobx {
     width: 100%;
     height:100%;
-    /* scale: 3.5; */
     background-color: #e26013;
     display: flex;
     justify-content: center;

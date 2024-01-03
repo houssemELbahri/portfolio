@@ -1,6 +1,4 @@
-// import ESPEROO from "../images/playstore-icon.png"
-// import POINTEUSE from "../images/pointeuse.png"
-import { Project } from "../types"
+import { Project,ITech } from "../types"
 
 import ESPEROO from "../images/esperoo.webp";
 import POINTEUSE from "../images/pointeuse.webp"
@@ -89,4 +87,53 @@ export const PROJECTS: Project[] = [
         appStoreLink:"https://apps.apple.com/tn/app/actifplanner/id1301312856",
         googlePlayLink:"https://play.google.com/store/apps/details?id=com.actifplanner",
     },
+]
+
+
+export const TECHNOLOGIES: ITech[] = [
+    {
+        id: 1,
+        name: "React",
+        icon:"FaReact"
+    },
+    {
+        id: 2,
+        name: "React Native",
+        icon:"ReactNative"
+    },
+    {
+        id: 3,
+        name: "JavaScript",
+        icon:"IoLogoJavascript"
+    },
+    {
+        id: 4,
+        name: "TypeScript",
+        icon:"SiTypescript"
+    },
+    {
+        id: 5,
+        name: "Redux",
+        icon:"SiRedux"
+    },
+    {
+        id: 6,
+        name: "Mobx",
+        icon:"SiMobx"
+    },
+    {
+        id: 7,
+        name: "git",
+        icon:"FaGitAlt"
+    },
+    {
+        id: 8,
+        name: "Android Studio",
+        icon:"SiAndroidstudio"
+    },
+    {
+        id: 9,
+        name: "Xcode",
+        icon:"SiXcode"
+    }
 ]

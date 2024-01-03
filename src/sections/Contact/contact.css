@@ -3,7 +3,6 @@
     width: 85%;
     margin-left: auto;
     margin-right: auto;
-    /* padding-top: 1rem; */
     padding-bottom: 3rem;
 }
 
@@ -31,11 +30,9 @@ section.contact-container #message {
     border: 1px solid rgb(63, 63, 70);
     width: 19rem;
     padding: 0.75rem 1rem;
-    /* margin-left: 1rem; */
     border-radius: 5px;
     transition: 0.3s;
     font-size: 1rem;
-    /* color:rgb(45,212,191) */
     color: var(--title)
 }
 
@@ -92,35 +89,17 @@ button:disabled {
     .label-input {
         display: flex;
         flex-direction: column;
-        /* background-color: blue; */
         align-items: start;
-        /* width: 100%; */
     }
 
-    /* section.contact-container form {
-        display: flex;
-        flex-direction: column;
-        width: 85%;
-        margin-left: auto;
-        margin-right: auto;;
-        background-color: red;
-    } */
-
-    /* section.contact-container form div.flex {
-        flex-direction: column;
-        align-items: start;
-    } */
 
     section.contact-container #email,
     section.contact-container #message {
-        /* width: 100%; */
-        /* margin-left: 0; */
         padding: 0.5rem 1rem;
         margin-top: 1rem;
     }
 
     section.contact-container .submit {
-        /* width: 45%; */
         padding: 0 30px;
         margin-left: auto;
         margin-right: auto;
