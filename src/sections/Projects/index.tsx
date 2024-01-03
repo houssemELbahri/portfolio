@@ -2,9 +2,6 @@ import './projects.css'
 import { PROJECTS } from '../../constants'
 import { MdPhoneIphone } from 'react-icons/md'
 import { GrAndroid } from "react-icons/gr";
-import { FaAndroid } from 'react-icons/fa'
-
-
 
 
 export const Projects = () => {
