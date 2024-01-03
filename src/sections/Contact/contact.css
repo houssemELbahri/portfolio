@@ -24,8 +24,6 @@ section.contact-container .title {
 
 section.contact-container .sub-title {
     font-size: 1.2rem;
-    /* color:var(--subtitle); */
-    /* color:#000033; */
     color: var(--subtitle);
     margin-bottom: 2rem;
     line-height: 1.65rem;

@@ -22,4 +22,8 @@
     flex-wrap: wrap;
 }
 
-
+/* @media (max-width:450px) {
+    .techs-container {
+        justify-content: center;
+    }
+} */
