@@ -12,7 +12,7 @@
     font-weight: 700;
     /* color:#000000; */
     color:var(--title);
-    padding-bottom: 1rem;
+    /* padding-bottom: 1rem; */
 }
 
 .projects-container {
@@ -31,19 +31,14 @@
     font-weight: 700;
 }
 
-.project-description {
-    color:var(--subtitle);
-    font-size: 17px;
-    font-weight: 300;
-    line-height: 26px;
-    padding-top: 15px;
-    letter-spacing: 0.5px;
-    /* font-family: Arial; */
-}
 
 .one-project {
-    /* background-color: red; */
-    padding: 15px 0;
+    /* background-color: rgb(240,240,240); */
+    /* background-color: var(--green); */
+    padding: 10px 0px;
+    /* margin-bottom: 5px; */
+    margin-top: 10px;
+    border-radius: 5px;
 }
 .project-icon {
     width:40px;

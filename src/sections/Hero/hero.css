@@ -19,15 +19,6 @@
     /* padding-bottom: 2rem; */
 }
 
-.description {
-    /* color:rgb(98, 97, 116); */
-    color:var(--subtitle);
-    font-size: 17px;
-    font-weight: 300;
-    letter-spacing: -0.32px;
-    line-height: 29.7px;
-    padding-bottom: 100px;
-}
 
 .left-container {
     /* background-color: pink; */
@@ -35,6 +26,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 120px;
 }
 
 .right-container {

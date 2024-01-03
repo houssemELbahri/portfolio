@@ -1,91 +1,116 @@
- 
- 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,400;9..40,500;9..40,700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,400;9..40,500;9..40,700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;700&display=swap');
 
-html {
-  /* font-family: 'DM Sans', 'Arial'; */
-  /* font-family: 'Montserrat'; */
-  /* letter-spacing: 1px; */
-  /* letter-spacing: -0.32px; */
-  /* line-height: 29.7px; */
-}
+ html {
+   font-family: 'DM Sans', 'Arial';
+   /* font-family: 'Montserrat'; */
+   /* letter-spacing: 1px; */
+   /* letter-spacing: -0.32px; */
+   /* line-height: 29.7px; */
+ }
 
-* {
-  margin: 0;
-  padding:0
-}
+ * {
+   margin: 0;
+   padding: 0
+ }
 
-:root {
-  --title: rgb(60, 60, 78);
-  --subtitle: rgb(98, 97, 116);
-  --green:#d3e8e1;
-  --blue: rgb(60, 60, 178);
-  /* --primary: #FFFFFF; */
-  --secondary: rgb(24, 24, 27);
-  --border: rgba(63,63,70,0.4);
-  --bgHeader:rgb(49,49,42);
-  --blue:rgb(93,188,252);
-}
+ :root {
+   --title: rgb(60, 60, 78);
+   --subtitle: rgb(98, 97, 116);
+   --green: #d3e8e1;
+   --blue: rgb(60, 60, 178);
+   /* --primary: #FFFFFF; */
+   --secondary: rgb(24, 24, 27);
+   --border: rgba(63, 63, 70, 0.4);
+   --bgHeader: rgb(49, 49, 42);
+   --blue: rgb(93, 188, 252);
+ }
 
 
-.lignt {
-  background-color: #FFFFFF;
-}
+ .lignt {
+   background-color: #FFFFFF;
+ }
 
-body {
-  background-color: var(--primary);
-  color:#FFFFFF
-}
+ body {
+   background-color: var(--primary);
+   color: #FFFFFF
+ }
 
-.container {
-  /* background-color: aquamarine; */
-  width: 98%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
-  /* background-color: var(--secondary); */
-}
+ .container {
+   /* background-color: aquamarine; */
+   width: 98%;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 0;
+   /* background-color: var(--secondary); */
+ }
 
-.divider {
-  border-bottom: 1px solid var(--border);
-  margin: 3rem 0;
-}
-
-
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color:initial;
-  transition: 0.2s;
-  cursor: pointer;
-}
-
-.flex {
-  display: flex;
-  align-items: center;
-}
-
-.border {
-  border: 2px solid red;
-}
-
-button {
-  border: 2px solid #FFFFFF;
-  padding:1px;
-  border-radius: 2px;
-  cursor: pointer
-}
+ .divider {
+   border-bottom: 1px solid var(--border);
+   margin: 3rem 0;
+ }
 
 
+ li {
+   list-style: none;
+ }
+
+ a {
+   text-decoration: none;
+   color: initial;
+   transition: 0.2s;
+   cursor: pointer;
+ }
+
+ .flex {
+   display: flex;
+   align-items: center;
+ }
+
+ .border {
+   border: 2px solid red;
+ }
+
+ button {
+   border: 2px solid #FFFFFF;
+   padding: 1px;
+   border-radius: 2px;
+   cursor: pointer
+ }
+
+ .title {
+   font-size: 32px;
+   font-weight: 700;
+   color: var(--title);
+   /* background-color: pink; */
+   padding-top: 0.2rem;
+   padding-bottom: 0rem;
+ }
+
+
+ .sub-title {
+   font-size: 18px;
+   font-weight: 700;
+   color: var(--title);
+   /* background-color: yellow; */
+   /* padding:5px 0; */
+ }
+
+ .description {
+   color: var(--subtitle);
+   font-size: 18px;
+   font-weight: 400;
+   letter-spacing: -0.32px;
+   line-height: 29.7px;
+   /* padding-bottom: 100px; */
+   /* background-color: blanchedalmond; */
+   /* padding:0px 0; */
+ }
 
 
 
@@ -115,7 +140,8 @@ button {
 
 
 
-/* :root {
+
+ /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;

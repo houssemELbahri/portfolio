@@ -7,7 +7,7 @@ import { GrAndroid } from "react-icons/gr";
 export const Projects = () => {
     return (
         <div className='main'>
-            <p className="projects-title">Projects I worked on</p>
+            <p className="title">Projects I worked on</p>
             <div className='projects-container' >
                 {PROJECTS.map(project => {
                     return (
@@ -21,9 +21,9 @@ export const Projects = () => {
                                     <p className='empty-text'>RC</p>
                                 </div>
                                 }
-                                    <p className='project-name'>{project.name} - {project.fromDate} - {project.toDate}</p>
+                                    <p className='sub-title'>{project.name} - {project.fromDate} - {project.toDate}</p>
                                 </div>
-                                <p className='project-description'>{project.description}</p>
+                                <p className='description'>{project.description}</p>
                                 <div className='flex platforms-container'>
                                     {project.appStoreLink &&<a href={project.appStoreLink} target='_blank'>
                                         <h1 className='app-platform'>

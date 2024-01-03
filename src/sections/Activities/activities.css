@@ -16,24 +16,17 @@
 }
 
 
-.activity {
-    font-size: 18px;
-    font-weight: 400;
-    color: var(--subtitle);
-    padding: 0.5rem 0;
-}
-
 .icon-with-label {
     display: flex;
     align-items: start;
     /* background-color: red; */
-    margin-bottom: 1px;
+    /* margin-bottom: 1px; */
 }
 
 
 .activity-icon {
     /* background-color: var(--title); */
     color:var(--subtitle);
-    margin-right: 15px;
-    scale:0.75;
+    margin-right: 10px;
+    scale:0.7;
 }

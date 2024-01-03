@@ -10,11 +10,11 @@ export const Contact = () => {
 
     return (
         <section className='contact-container'>
-            <h1 className='title'>Contact us</h1>
-            <p className='sub-title'>Contact us for more information and get notified when i publish something new .</p>
-            <div className='flex'>
+            <h1 className='title'>Contact me</h1>
+            <p className='description'>Contact us for more information and get notified when i publish something new .</p>
+            <div className='flex form-container'>
                 <form  onSubmit={handleSubmit}>
-                    <div className='flex'>
+                    <div className='label-input'>
                         <label htmlFor='email'>Email address:</label>
                         <input
                             required
@@ -29,7 +29,7 @@ export const Contact = () => {
                         field="email"
                         errors={state.errors}
                     />
-                    <div className='flex' style={{ marginTop: "24px" }}>
+                    <div className='label-input' style={{ marginTop: "24px" }}>
                         <label htmlFor='message'>Your message:</label>
                         <textarea
                             required

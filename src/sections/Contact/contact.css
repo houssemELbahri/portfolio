@@ -1,58 +1,52 @@
 .contact-container {
-    /* background-color: pink; */
+    /* background-color: green; */
     width: 85%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
     padding-bottom: 3rem;
 }
 
+.form-container {
+    /* background-color: pink; */
+    padding-top: 2rem;
+}
 
-section.contact-container .title {
-    /* font-size: 2.1rem;
-    color:var(--title);
-    margin-bottom: 0.4rem;
-    background-color: red; */
-    font-size: 32px;
-    font-weight: 700;
-    color:#000000;
-    color:var(--title);
-    /* padding-bottom: 1rem; */
+.label-input {
+    display: flex;
+    align-items: center;
     /* background-color: red; */
-
 }
 
-section.contact-container .sub-title {
-    font-size: 1.2rem;
-    color: var(--subtitle);
-    margin-bottom: 2rem;
-    line-height: 1.65rem;
-}
 
 section.contact-container label {
-    color:#000033
+    color: var(--subtitle);
+    margin-right: 1rem;
 }
 
-section.contact-container #email, section.contact-container #message {
+section.contact-container #email,
+section.contact-container #message {
     all: unset;
-    background-color: rgba(93,93,100,0.15);
-    border: 1px solid rgb(63,63,70);
+    background-color: rgba(93, 93, 100, 0.15);
+    border: 1px solid rgb(63, 63, 70);
     width: 19rem;
     padding: 0.75rem 1rem;
-    margin-left: 1rem;
-    border-radius: 5px ;
+    /* margin-left: 1rem; */
+    border-radius: 5px;
     transition: 0.3s;
     font-size: 1rem;
     /* color:rgb(45,212,191) */
-    color:var(--title)
-} 
+    color: var(--title)
+}
 
-section.contact-container #email:focus, section.contact-container #message:focus {
+section.contact-container #email:focus,
+section.contact-container #message:focus {
     border: 1px solid #d3e8e1;
 }
 
-section.contact-container #email:hover, section.contact-container #message:hover {
-    border: 1px solid rgb(45,212,191);
+section.contact-container #email:hover,
+section.contact-container #message:hover {
+    border: 1px solid rgb(45, 212, 191);
 }
 
 
@@ -62,9 +56,9 @@ section.contact-container #message {
 }
 
 section.contact-container .submit {
-    background-color: rgba(36,37,46,1);
+    background-color: rgba(36, 37, 46, 1);
     padding: 0 30px;
-    height:50px;
+    height: 50px;
     text-align: center;
     /* font-size: 1.05rem; */
     font-size: 17px;
@@ -73,12 +67,12 @@ section.contact-container .submit {
     border-radius: 5px;
     transition: 0.3;
     margin-top: 1.8rem;
-    border: 1px solid rgb(63,63,70);
-    color:white
+    border: 1px solid rgb(63, 63, 70);
+    color: white
 }
 
 section.contact-container .submit:hover {
-   scale: 0.97;
+    scale: 0.97;
 }
 
 button:disabled {
@@ -88,34 +82,46 @@ button:disabled {
 
 
 
-@media (max-width: 600px){
+
+
+@media (max-width: 600px) {
     section.contact-container .animation {
         display: none;
     }
 
-    section.contact-container form {
+    .label-input {
+        display: flex;
+        flex-direction: column;
+        /* background-color: blue; */
+        align-items: start;
+        /* width: 100%; */
+    }
+
+    /* section.contact-container form {
         display: flex;
         flex-direction: column;
         width: 85%;
-        /* margin-left: auto; */
-        /* margin-right: auto; */
-    }
+        margin-left: auto;
+        margin-right: auto;;
+        background-color: red;
+    } */
 
-    section.contact-container form div.flex {
+    /* section.contact-container form div.flex {
         flex-direction: column;
         align-items: start;
-    }
+    } */
 
-    section.contact-container #email, section.contact-container #message {
-        width: 100%;
-        margin-left: 0;
+    section.contact-container #email,
+    section.contact-container #message {
+        /* width: 100%; */
+        /* margin-left: 0; */
         padding: 0.5rem 1rem;
         margin-top: 1rem;
     }
 
     section.contact-container .submit {
         /* width: 45%; */
-        padding:0 30px;
+        padding: 0 30px;
         margin-left: auto;
         margin-right: auto;
     }
