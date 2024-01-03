@@ -13,7 +13,7 @@ export const Contact = () => {
             <h1 className='title'>Contact me</h1>
             <p className='description'>Contact us for more information and get notified when i publish something new .</p>
             <div className='flex form-container'>
-                <form  onSubmit={handleSubmit}>
+                <form onSubmit={handleSubmit}>
                     <div className='label-input'>
                         <label htmlFor='email'>Email address:</label>
                         <input
