@@ -108,7 +108,7 @@ button {
 
 .description {
   color: var(--subtitle);
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 400;
   letter-spacing: -0.32px;
   line-height: 29.7px;
@@ -123,6 +123,10 @@ button {
 @media (max-width:600px){
   .app-container {
     width: 100%;
+  }
+
+  .description {
+    font-size: 16px;
   }
 }
 

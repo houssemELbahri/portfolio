@@ -115,6 +115,13 @@
     margin-right: 5px;
 }
 
+
+@media (max-width:600px){
+    .technology-name {
+        font-size: 12px;
+    }
+}
+
 @media (max-width:370px){
     .tech-card {
         /* margin-right: 5px; */
