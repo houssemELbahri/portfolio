@@ -48,7 +48,6 @@ body {
 }
 
 .app-container {
-  /* background-color: aquamarine; */
   width: 98%;
   margin-left: auto;
   margin-right: auto;
@@ -121,7 +120,11 @@ button {
 
 
 
-
+@media (max-width:600px){
+  .app-container {
+    width: 100%;
+  }
+}
 
 
 

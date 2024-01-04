@@ -49,7 +49,7 @@ export const Header = () => {
         <header className='header'>
             <div className='header-container'>
                 <p className='me'>@ElBahri</p>
-                <div className='flex'>
+                <div className='links-with-theme'>
                     <div>
                         <ul className='networks flex'>
                             {LINKS.map(el => {
@@ -69,9 +69,9 @@ export const Header = () => {
                             onClick={toggleTheme}>
                             <h1 className='mode-icon'>
                                 {theme == "light" ?
-                                    <LuSun style={{color:'#000000',padding:"5px",width:"25px",height:"25px",borderRadius:"30px"}} />
+                                    <LuSun style={{color:'rgb(233,169,8)',padding:"5px",width:"25px",height:"25px",borderRadius:"30px"}} />
                                     :
-                                    <MdDarkMode style={{color:'#FFFFFF',padding:"5px",width:"25px",height:"25px",backgroundColor:'#000000',borderRadius:"30px"}} />
+                                    <MdDarkMode style={{color:'#000000',padding:"5px",width:"25px",height:"25px",borderRadius:"30px"}} />
                                 }
                             </h1>
                         </button>

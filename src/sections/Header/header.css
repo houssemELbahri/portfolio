@@ -7,11 +7,12 @@
     /* background-color: red; */
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 15px;
     width:85%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 30px;
+    padding-top: 15px;
 }
 
 .me {
@@ -71,14 +72,30 @@ li:hover {
     /* scale:0.8; */
 }
 
+.links-with-theme {
+    display: flex;
+    align-items: center;
+
+}
+
 @media (max-width:600px) {
     .header-container {
         /* background-color: green; */
         flex-direction: column;
+        align-items: start;
+        margin-top: 0;
     }
+    .links-with-theme {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width:100%
+    }
+
     .mode {
-        position: fixed;
-        right:45px;
-        top:40px
+        position: absolute;
+        right:30px;
+        top:20px;
     }
+    
 }
