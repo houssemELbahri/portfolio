@@ -11,7 +11,7 @@ export const Contact = () => {
     return (
         <section className='contact-container'>
             <h1 className='title'>Contact me</h1>
-            <p className='description'>Contact us for more information and get notified when i publish something new .</p>
+            <p className='description'>Contact me for more information and get notified when i publish something new .</p>
             <div className='flex form-container'>
                 <form onSubmit={handleSubmit}>
                     <div className='label-input'>
