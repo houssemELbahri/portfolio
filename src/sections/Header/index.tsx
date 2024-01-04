@@ -1,6 +1,5 @@
 import './header.css'
 import { useEffect, useState } from 'react'
-import { IoMdFootball } from "react-icons/io";
 import { MdDarkMode } from "react-icons/md";
 import { LuSun } from "react-icons/lu";
 
@@ -43,7 +42,7 @@ export const Header = () => {
 
     const toggleTheme = () => {
         localStorage.setItem("currentMode", theme == "dark" ? "light" : "dark")
-        setTheme(localStorage.getItem("currentMode"))
+        setTheme(localStorage.getItem("currentMode") ?? "light")
     }
     return (
         <header className='header'>
