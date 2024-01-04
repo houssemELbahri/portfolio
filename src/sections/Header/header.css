@@ -2,6 +2,7 @@
     background-color: var(--green);
     /* background-color: red; */
 }
+
 .header-container {
     background-color: var(--green);
     /* background-color: red; */
@@ -9,7 +10,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 15px;
-    width:85%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 15px;
@@ -18,9 +19,7 @@
 .me {
     font-size: 18px;
     font-weight: 700;
-    margin-bottom: 10px;
-    color:rgb(60, 60, 78);
-    /* color:var(--title) */
+    color: rgb(60, 60, 78);
 }
 
 .links {
@@ -37,40 +36,30 @@
 li {
     padding-right: 10px;
     cursor: pointer;
-    color:var(--subtitle)
+    color: var(--subtitle)
 }
+
 .linkTo {
     /* color:var(--subtitle); */
-    color:rgb(98, 97, 116);
+    color: rgb(98, 97, 116);
 }
 
 li:hover {
-    scale:1.05;
+    scale: 1.05;
     text-decoration: underline;
     text-decoration-color: var(--blue);
 }
 
-.links-plus-mode {
-    background-color: red;
-}
 
 .mode {
-    /* position: fixed; */
-    /* right:80px */
-    /* background-color: green; */
     margin-left: 10px;
 }
 
 .button-mode {
-    all:unset
+    all: unset
 }
 
 
-.mode-icon {
-    /* color:var(--subtitle); */
-    /* margin-right: 10px; */
-    /* scale:0.8; */
-}
 
 .links-with-theme {
     display: flex;
@@ -84,18 +73,20 @@ li:hover {
         flex-direction: column;
         align-items: start;
         margin-top: 0;
+        row-gap: 10px;
     }
+
     .links-with-theme {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width:100%
+        width: 100%
     }
 
     .mode {
         position: absolute;
-        right:30px;
-        top:20px;
+        right: 30px;
+        top: 15px;
     }
-    
+
 }

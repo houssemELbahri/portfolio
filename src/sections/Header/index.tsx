@@ -76,9 +76,6 @@ export const Header = () => {
                         </button>
                     </div>
                 </div>
-                {/* <div className='mode'>
-                <button onClick={toggleTheme}>{theme}</button>
-                </div> */}
             </div>
         </header>
     )
