@@ -12,7 +12,6 @@ export const Contact = () => {
         if(state.succeeded){
             setTimeout(()=> {
                 reset()
-                set
             },2000)
         }
     },[state.succeeded])
