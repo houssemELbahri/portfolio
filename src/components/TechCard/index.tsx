@@ -8,6 +8,9 @@ import { SiAndroidstudio } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
 import { SiMobx } from "react-icons/si";
+import { SiSqlite } from "react-icons/si";
+import { SiFirebase } from "react-icons/si";
+import { SiExpo } from "react-icons/si";
 
 
 
@@ -15,13 +18,13 @@ import { SiMobx } from "react-icons/si";
 export const TechCard = ({ name, icon }: ITech) => {
     return (
         <div className='vertical-list'>
-        <div
-            className="tech-card"
+            <div
+                className="tech-card"
             >
-            <Icon icon={icon} />
-        </div>
-        <p className='technology-name'>{name}</p>
+                <Icon icon={icon} />
             </div>
+            <p className='technology-name'>{name}</p>
+        </div>
     )
 }
 
@@ -42,15 +45,15 @@ const Icon = ({ icon }: IconProps) => {
                     </div>
                 </div>
             )
-            case "ReactNative":
-                return (
-                    <div className='tech-react-native'>
-                        <div className='one-tech'>
-                            <FaReact
-                            />
-                        </div>
+        case "ReactNative":
+            return (
+                <div className='tech-react-native'>
+                    <div className='one-tech'>
+                        <FaReact
+                        />
                     </div>
-                )
+                </div>
+            )
         case "IoLogoJavascript":
             return (
                 <div className='tech-js'>
@@ -110,6 +113,33 @@ const Icon = ({ icon }: IconProps) => {
                 <div className='tech-mobx'>
                     <div className='one-tech'>
                         <SiMobx
+                        />
+                    </div>
+                </div>
+            )
+        case "SiSqlite":
+            return (
+                <div className='tech-sqlite'>
+                    <div className='one-tech'>
+                        <SiSqlite
+                        />
+                    </div>
+                </div>
+            )
+        case "SiFirebase":
+            return (
+                <div className='tech-firebase'>
+                    <div className='one-tech'>
+                        <SiFirebase
+                        />
+                    </div>
+                </div>
+            )
+            case "SiExpo":
+            return (
+                <div className='tech-expo'>
+                    <div className='one-tech'>
+                        <SiExpo
                         />
                     </div>
                 </div>

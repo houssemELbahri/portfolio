@@ -10,20 +10,33 @@ import ACTIFPLANNER from "../images/actifplanner.webp"
 
 
 
+
 export const FORM_KEY = "xoqgqqvq";
 export const USERNAME = "ELBahri";
 
 
 export const PROJECTS: Project[] = [
     {
-        id: "6",
-        name: "Rapido Car",
-        fromDate: "10/2023",
+        id: "7",
+        name: "React-native-swipeable-container",
+        fromDate: "04/2024",
         toDate: "Present",
-        company: "Esperoo",
-        technologies: ["React native", "typescript", "Mobx"],
+        company: "Personnel",
+        technologies: ["React native", "Typescript", "Reanimated","Gestures"],
         image: "",
-        description: "Enables users to simplify car rental by checking availability, booking and accessing the best deals in real time.",
+        description: " is an open source library that makes it easy to incorporate swipeable components into your React Native applications for both Android and iOS. This tool enhances user interaction by enabling smooth and responsive swipe gestures,",
+        npmLink:"https://www.npmjs.com/package/react-native-swipeable-container",
+        githubLink:"https://github.com/houssemELbahri/react-native-swipeable-container"
+    },
+    {
+        id: "6",
+        name: "Bee Bus",
+        fromDate: "02/2024",
+        toDate: "Present",
+        company: "Freelance",
+        technologies: ["React native", "Typescript", "Redux-Toolkit"],
+        image: "",
+        description: "This innovative application for drivers allows users to take on various missions and follow predefined routes on an interactive map. By integrating robust location services with Mapbox, it provides accurate real-time tracking and mapping capabilities, ensuring drivers can navigate their missions efficiently and stay on the correct path with ease.",
         appStoreLink:"",
         googlePlayLink:"",
     },
@@ -135,5 +148,20 @@ export const TECHNOLOGIES: ITech[] = [
         id: 9,
         name: "Xcode",
         icon:"SiXcode"
-    }
+    },
+    {
+        id: 10,
+        name: "Firebase",
+        icon:"SiFirebase"
+    },
+    {
+        id: 11,
+        name: "SQLite",
+        icon:"SiSqlite"
+    },
+    {
+        id: 12,
+        name: "Expo",
+        icon:"SiExpo"
+    },
 ]

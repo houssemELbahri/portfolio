@@ -92,6 +92,37 @@
     justify-content: center;
     align-items: center;
 }
+
+.tech-sqlite {
+    width: 100%;
+    height:100%;
+    background-color: #F7F7F7;
+    color:#1c253b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-expo {
+    width: 100%;
+    height:100%;
+    background-color: #1c253b;
+    color:#2687d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-firebase {
+    width: 100%;
+    height:100%;
+    background-color: #f6df31;
+    /* color:#e26013; */
+    color:#e26013;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .one-tech {
     /* background-color: green; */
     scale:3.5;

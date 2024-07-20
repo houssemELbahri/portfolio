@@ -11,7 +11,7 @@ export const Hero = () => {
                     <p className='greeting'>Hello !</p>
                     <section className='special-description'>
                         I am <strong>Houssem Bahri</strong> , also known as <strong>@ElBahri</strong>, a front-end and mobile developer living in Nabeul, Tunisia.
-                        I enjoy using the React ecosystem, especially to develop iOS and Android  applications. I also like working on web projects .
+                        I enjoy using the React ecosystem, especially to develop iOS and Android  applications. I also like contributing to react native community .
                     </section>
                 </div>
                 <div className='right-container'>

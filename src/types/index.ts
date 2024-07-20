@@ -7,8 +7,10 @@ export interface Project {
     technologies: string[],
     image: string,
     description: string,
-    appStoreLink:string,
-    googlePlayLink:string
+    appStoreLink?:string,
+    googlePlayLink?:string,
+    npmLink?:string,
+    githubLink?:string
 }
 
 export interface ITech {

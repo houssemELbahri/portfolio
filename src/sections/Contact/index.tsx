@@ -1,11 +1,23 @@
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm, ValidationError, } from '@formspree/react';
 import './contact.css'
 import { FORM_KEY } from '../../constants';
+import { useEffect } from 'react';
 
 
 
 export const Contact = () => {
-    const [state, handleSubmit] = useForm(FORM_KEY);
+    const [state, handleSubmit, reset] = useForm(FORM_KEY);
+
+    useEffect(()=> {
+        if(state.succeeded){
+            setTimeout(()=> {
+                reset()
+                set
+            },2000)
+        }
+    },[state.succeeded])
+
+
 
 
     return (
@@ -48,9 +60,6 @@ export const Contact = () => {
                         <p style={{fontSize:"18px",marginTop:"1.7rem",color:"#000000"}}>Your message has been sent successfuly </p>
                     )}
                 </form>
-                {/* <div className='animation'>
-                    animation
-                </div> */}
             </div>
         </section>
     )
