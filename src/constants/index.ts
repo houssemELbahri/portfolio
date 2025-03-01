@@ -5,6 +5,9 @@ import POINTEUSE from "../images/pointeuse.webp"
 import KAFU from "../images/kafu.webp"
 import AUDITTAB from "../images/audittab.webp"
 import ACTIFPLANNER from "../images/actifplanner.webp"
+import COPADELMUNDO from "../images/copadelmundo.webp"
+import VEGETA from "../images/vegeta.webp"
+
 
 
 
@@ -16,6 +19,28 @@ export const USERNAME = "ELBahri";
 
 
 export const PROJECTS: Project[] = [
+    {
+        id: "9",
+        name: "Vegeta",
+        fromDate: "02/2025",
+        toDate: "Present",
+        company: "Personnel",
+        technologies: ["React native", "Typescript", "Reanimated","Gestures"],
+        image: VEGETA,
+        description: "Vegeta is a fast-paced mobile game where players tap to keep an astronaut afloat while dodging obstacles in the extreme conditions of planet Neptune. Designed for quick reflexes and high-score chasers, Vegeta delivers an engaging and addictive experience. Built with Expo using React Native Skia, React Native Reanimated, and React Native Gesture Handler.",
+        googlePlayLink:"https://play.google.com/store/apps/details?id=com.elbahri.neptune",
+    },
+    {
+        id: "8",
+        name: "Copa Del Mundo",
+        fromDate: "12/2024",
+        toDate: "Present",
+        company: "Personnel",
+        technologies: ["React native", "Typescript", "Reanimated","Gestures"],
+        image: COPADELMUNDO,
+        description: "Copa del Mundo is a mobile application dedicated to football enthusiasts, allowing users to stay connected with the world of football in real-time.",
+        googlePlayLink:"https://play.google.com/store/apps/details?id=com.elbahri.copaDelMundo.premium",
+    },
     {
         id: "7",
         name: "React-native-swipeable-container",
